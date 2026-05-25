@@ -1,0 +1,116 @@
+/* App.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #0f172a, #1b4332, #2d6a4f);
+  min-height: 100vh;
+  color: #f1f5f9;
+}
+
+.title {
+  text-align: center;
+  color: #74f38a;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-size: 42px;
+  font-weight: bold;
+  text-shadow: 0px 0px 12px rgba(116,243,138,0.7);
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  padding: 25px;
+  border-radius: 20px;
+  background: rgba(255,255,255,0.07);
+  backdrop-filter: blur(10px);
+  box-shadow: 0px 8px 25px rgba(0,0,0,0.3);
+}
+
+h1 {
+  color: #d1fae5;
+  font-size: 22px;
+  margin-left: 10%;
+}
+
+input {
+  width: 80%;
+  padding: 14px;
+  margin: 10px 10%;
+  border: none;
+  border-radius: 12px;
+  background: rgba(255,255,255,0.1);
+  color: white;
+  font-size: 16px;
+  outline: none;
+  transition: 0.3s;
+}
+
+input::placeholder {
+  color: #bbf7d0;
+}
+
+input:focus {
+  box-shadow: 0px 0px 12px #4ade80;
+  transform: scale(1.02);
+}
+
+button {
+  padding: 12px 22px;
+  margin: 15px 10px;
+  border: none;
+  border-radius: 12px;
+  background: linear-gradient(to right, #22c55e, #16a34a);
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 5px 15px rgba(34,197,94,0.5);
+}
+
+table {
+  width: 90%;
+  margin: 30px auto;
+  border-collapse: collapse;
+  background: rgba(255,255,255,0.08);
+  border-radius: 15px;
+  overflow: hidden;
+  backdrop-filter: blur(10px);
+  box-shadow: 0px 8px 25px rgba(0,0,0,0.4);
+}
+
+thead {
+  background: linear-gradient(to right, #15803d, #22c55e);
+}
+
+th {
+  color: white;
+}
+
+th, td {
+  padding: 16px;
+  text-align: center;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+tr:hover {
+  background: rgba(255,255,255,0.08);
+}
+
+td {
+  color: #ecfdf5;
+}
+
+td button {
+  background: linear-gradient(to right, #ef4444, #dc2626);
+}
+
+td button:hover {
+  box-shadow: 0px 5px 15px rgba(239,68,68,0.5);
+}
